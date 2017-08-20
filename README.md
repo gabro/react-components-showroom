@@ -22,7 +22,7 @@ Suppose you want to add the component `Foo` from `brc` to the showroom:
         components: () => [
   -       brc('AsyncStatusIndicator')
   +       brc('AsyncStatusIndicator'),
-  +       brc('Foo'),
+  +       brc('Foo')
         ],
       }
   ```

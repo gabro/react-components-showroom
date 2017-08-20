@@ -15,11 +15,10 @@ module.exports = {
     Logo: path.resolve(__dirname, 'components/Logo.jsx')
   },
 
+  // content
   title: 'buildo react components',
   template: 'index.html',
-
-  showUsage: true, // show props by default
-  propsParser: require('react-docgen-typescript').parse,
+  propsParser: require('react-docgen-typescript').parse, // detect docs using TS information
   sections: [
     {
       name: 'Getting started',
@@ -32,6 +31,7 @@ module.exports = {
       ],
     }
   ],
+  showUsage: true, // show props by default
   getComponentPathLine(componentPath) {
     const name = path.basename(componentPath, '.tsx');
     return `import ${name} from @buildo/react${kebabCase(name)}`;

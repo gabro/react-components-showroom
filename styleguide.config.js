@@ -9,8 +9,17 @@ module.exports = {
   showUsage: true,
   template: 'index.html',
   propsParser: require('react-docgen-typescript').parse,
-  components: () => [
-    brc('AsyncStatusIndicator')
+  sections: [
+    {
+      name: 'Getting started',
+      content: 'guides/GettingStarted.md'
+    },
+    {
+      name: 'Components',
+      components: () => [
+        brc('AsyncStatusIndicator')
+      ],
+    }
   ],
   getComponentPathLine(componentPath) {
     const name = path.basename(componentPath, '.tsx');

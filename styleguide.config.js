@@ -7,7 +7,7 @@ function brc(name) {
 
 module.exports = {
   // build
-  styleguideDir: '.', // target of the `build` task
+  styleguideDir: 'build', // target of the `build` task
 
   // style customizations
   require: [ path.resolve(__dirname, 'main.css') ],

@@ -10,7 +10,9 @@ module.exports = {
   styleguideDir: 'build', // target of the `build` task
 
   // style customizations
-  require: [ path.resolve(__dirname, 'main.css') ],
+  require: [
+    path.resolve(__dirname, 'main.scss')
+  ],
   styleguideComponents: {
     Logo: path.resolve(__dirname, 'components/Logo.jsx')
   },

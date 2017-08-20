@@ -5,7 +5,10 @@ module.exports = {
     rules: [
       {
         test: /\.[j|t]sx?$/,
-        include: path.resolve(__dirname, 'node_modules/buildo-react-components/src'),
+        include: [
+          path.resolve(__dirname, 'node_modules/buildo-react-components/src'),
+          path.resolve(__dirname, 'components')
+        ],
         use: [
           {
           loader: 'babel-loader',
@@ -33,6 +36,15 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 25000,
+          }
+        }
       }
     ]
   }

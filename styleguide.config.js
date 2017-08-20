@@ -6,6 +6,13 @@ function brc(name) {
 }
 
 module.exports = {
+  title: 'buildo react components',
+  require: [
+    path.resolve(__dirname, 'main.css')
+  ],
+  styleguideComponents: {
+    Logo: path.resolve(__dirname, 'components/Logo.jsx')
+  },
   showUsage: true,
   template: 'index.html',
   propsParser: require('react-docgen-typescript').parse,

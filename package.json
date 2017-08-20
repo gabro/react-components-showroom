@@ -16,13 +16,14 @@
     "buildo-react-components": "buildo/react-components#1040-typo_asyncstatusindicator",
     "css-loader": "^0.28.5",
     "kebab-case": "^1.0.0",
+    "react": "^15.6.1",
     "react-docgen-typescript": "^1.0.0",
+    "react-dom": "^15.6.1",
     "react-styleguidist": "^6.0.16",
     "sass-loader": "^6.0.6",
     "ts-loader": "^2.3.3",
     "typescript": "^2.4.2",
-    "webpack": "^3.5.5",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
   }
 }

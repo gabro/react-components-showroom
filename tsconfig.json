@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "esnext",
     "allowSyntheticDefaultImports": false,
-    "allowJs": true,
     "experimentalDecorators": true,
     "outDir": "./temp",
     "baseUrl": ".",

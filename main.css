@@ -1,0 +1,12 @@
+[data-reactroot] {
+  background: url('./assets/pattern.png') repeat-x !important;
+}
+
+main [data-reactroot] {
+  background-image: none !important;
+}
+
+main {
+  padding-top: 120px !important;
+}
+

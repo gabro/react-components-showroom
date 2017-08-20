@@ -8,3 +8,5 @@ Install dependencies with `yarn` then:
 ```
 yarn start
 ```
+
+and visit http://localhost:6060

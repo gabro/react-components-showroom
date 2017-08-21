@@ -13,8 +13,7 @@ module.exports = {
           {
           loader: 'babel-loader',
             options: {
-              presets: ['latest', 'react'],
-              plugins: ['transform-class-properties']
+              presets: [['buildo', { env: 'react' }]]
             }
           },
           {

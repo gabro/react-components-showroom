@@ -19,6 +19,7 @@ module.exports = {
 
   // content
   title: 'buildo react components',
+  assetsDir: 'assets',
   template: 'index.html',
   propsParser: require('react-docgen-typescript').parse, // detect docs using TS information
   sections: [
@@ -30,7 +31,8 @@ module.exports = {
       name: 'Components',
       components: () => [
         brc('AsyncStatusIndicator'),
-        brc('Badge')
+        brc('Badge'),
+        brc('BackgroundDimmer')
       ],
     }
   ],

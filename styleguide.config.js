@@ -29,7 +29,8 @@ module.exports = {
     {
       name: 'Components',
       components: () => [
-        brc('AsyncStatusIndicator')
+        brc('AsyncStatusIndicator'),
+        brc('Badge')
       ],
     }
   ],

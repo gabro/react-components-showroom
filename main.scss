@@ -1,9 +1,5 @@
-[data-reactroot] {
+#app > div {
   background: url('./assets/pattern.png') repeat-x !important;
-}
-
-main [data-reactroot] {
-  background-image: none !important;
 }
 
 main {
@@ -11,3 +7,4 @@ main {
 }
 
 @import '~buildo-react-components/src/AsyncStatusIndicator/asyncStatusIndicator.scss';
+@import '~buildo-react-components/src/Badge/badge.scss';

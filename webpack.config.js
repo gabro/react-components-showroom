@@ -1,10 +1,13 @@
 const path = require('path');
 
 module.exports = {
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
+  },
   module: {
     rules: [
       {
-        test: /\.[j|t]sx?$/,
+        test: /\.[jt]sx?$/,
         include: [
           path.resolve(__dirname, 'node_modules/buildo-react-components/src'),
           path.resolve(__dirname, 'components')

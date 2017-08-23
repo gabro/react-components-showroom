@@ -33,7 +33,8 @@ module.exports = {
       components: () => [
         brc('AsyncStatusIndicator'),
         brc('Badge'),
-        brc('BackgroundDimmer')
+        brc('BackgroundDimmer'),
+        brc('BrowserDetector')
       ],
     }
   ],

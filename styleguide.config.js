@@ -11,7 +11,8 @@ module.exports = {
 
   // style customizations
   require: [
-    path.resolve(__dirname, 'main.scss')
+    path.resolve(__dirname, 'main.scss'),
+    'buildo-normalize-css'
   ],
   styleguideComponents: {
     Logo: path.resolve(__dirname, 'components/Logo.jsx')

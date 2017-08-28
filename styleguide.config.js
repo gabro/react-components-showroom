@@ -34,7 +34,10 @@ module.exports = {
         brc('AsyncStatusIndicator'),
         brc('Badge'),
         brc('BackgroundDimmer'),
-        brc('BrowserDetector')
+        brc('BrowserDetector'),
+        brc('CollapsibleSection'),
+        brc('ConfirmationInput'),
+        brc('Icon'),
       ],
     }
   ],

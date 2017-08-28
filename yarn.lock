@@ -1162,7 +1162,7 @@ buildo-normalize-css@^3.0.2:
 
 buildo-react-components@buildo/react-components:
   version "0.27.1"
-  resolved "https://codeload.github.com/buildo/react-components/tar.gz/7391fb8d7694f4aa31f242601ce722497179d45c"
+  resolved "https://codeload.github.com/buildo/react-components/tar.gz/69b5ec26197d1de5418f50ebf4d2c1c2536bd060"
   dependencies:
     "@types/lodash" "4.14.74"
     "@types/react" "15.6.1"
